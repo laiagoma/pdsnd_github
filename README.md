@@ -8,7 +8,7 @@ Udacity Explore US Bikeshare Data - Python project
 Small python project to let user explore *US Bikeshare data* and get information about what is the most popular routes, used stations, and demographics. Example is harcoded with 3 US cities, but can easily be extended with more cities if data is present.
 
 ### Files used
-Main file is [bikeshare.py](./bikeshare.py)
+Main file is [bikeshare.py](./bikeshare.py). Additional information & links in this [README.md](./README.md) file.
 
 ### Credits
 Code by [Laia Goma](https://github.com/laiagoma), inspiration & help from following sites:
