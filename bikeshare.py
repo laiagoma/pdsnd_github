@@ -66,7 +66,6 @@ def load_data(city, month, day):
     #Extract month and day to create a new column in order to filter.
                     
     df['month'] = df['Start Time'].dt.month
-    df['day'] = df['Start Time'].dt.day
     df['weekday'] = df['Start Time'].dt.dayofweek
     df['hour'] = df['Start Time'].dt.hour
 
