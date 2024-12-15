@@ -161,28 +161,21 @@ def user_stats(df):
     start_time = time.time()
 
     # TO DO: Display counts of user types
-    count_users = df['User Type'].value_counts()
-    print('The number of different user types are:\n{}\n'.format(count_users))
+    print('The number of different user types are:\n{}\n'.format(df['User Type'].value_counts()))
        
     # TO DO: Display counts of gender
     if 'Gender' not in df:
         print('Sorry, Gender data not available for this city')
     else:
-       gender_counts = df['Gender'].value_counts()
-       print('The genders are:\n{}\n'.format(gender_counts))
+       print('The genders are:\n{}\n'.format(df['Gender'].value_counts()))
 
     # TO DO: Display earliest, most recent, and most common year of birth
     if 'Birth Year' not in df:
         print('Birth year data not available')
     else:
-        earliest_birthyear = df['Birth Year'].min()
-        print('The earliest birth year is: {}'.format(earliest_birthyear))
-
-        mostrecent_birthyear = df['Birth Year'].max()
-        print('The most recent bith year is: {}'.format(mostrecent_birthyear))
-
-        mostcommon_birthyear = df['Birth Year'].mode()[0]
-        print('The most common year of birth is: {}'.format(mostcommon_birthyear))
+        print('The earliest birth year is: {}'.format(df['Birth Year'].min()))
+        print('The most recent bith year is: {}'.format(df['Birth Year'].max()))
+        print('The most common year of birth is: {}'.format(df['Birth Year'].mode()[0]))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
