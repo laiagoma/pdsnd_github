@@ -1,17 +1,20 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+Project created _15th December 2024_.
 
 ### Project Title
-Replace the Project Title
+Udacity Explore US Bikeshare Data - Python project
 
 ### Description
-Describe what your project is about and what it does
+Small python project to let user explore *US Bikeshare data* and get information about what is the most popular routes, used stations, and demographics. Example is harcoded with 3 US cities, but can easily be extended with more cities if data is present.
 
 ### Files used
-Include the files used
+Main file is [bikeshare.py](./bikeshare.py)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Code by [Laia Goma](https://github.com/laiagoma), inspiration & help from following sites:
+- https://stackoverflow.com/
+- https://pandas.pydata.org/
+- https://www.w3schools.com/python/pandas/
+- https://github.com/patrickbloomingdale/Udacity-Project-Explore-US-Bikeshare-Data
+- https://github.com/adelabuhashim/Explore-US-Bikeshare-Data
 
